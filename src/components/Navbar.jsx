@@ -70,7 +70,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className="w-full bg-slate-400 h-[70px] px-5 py-3 sm:px-10 sm:py-5 flex items-center justify-between">
+    <div className="w-full bg-darkBrown h-[70px] px-5 py-3 sm:px-10 sm:py-5 flex items-center justify-between">
       <p className="text-lg font-play text-white font-semibold">Muna-Snack</p>
       <div className="relative inline-block text-left">
         <button
@@ -131,7 +131,7 @@ const Navbar = () => {
             />
             <div className="flex justify-end">
               <button
-                className="bg-blue-500 text-white px-4 py-2 rounded-lg mr-2"
+                className="bg-darkBrown text-white px-4 py-2 rounded-lg mr-2"
                 onClick={handleSubmit}
               >
                 Submit
