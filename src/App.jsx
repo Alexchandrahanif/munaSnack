@@ -1,5 +1,6 @@
 import HomePage from "./Pages/HomePage";
 import Footer from "./components/Footer";
+import Jastip from "./components/Jastip";
 import Navbar from "./components/Navbar";
 
 function App() {
@@ -11,6 +12,9 @@ function App() {
 
       <div className="w-full pt-[70px]">
         <HomePage />
+      </div>
+      <div className="w-full">
+        <Jastip />
       </div>
       <div className="w-full h-[50px]">
         <Footer />
