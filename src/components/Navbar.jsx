@@ -70,7 +70,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className="w-full bg-darkBrown h-[70px] px-5 py-3 sm:px-10 sm:py-5 flex items-center justify-between">
+    <div className="w-full bg-darkBrown h-[75px] px-5 py-3 sm:px-10 sm:py-5 flex items-center justify-between">
       <p className="text-lg font-play text-white font-semibold">Muna-Snack</p>
       <div className="relative inline-block text-left">
         <button
