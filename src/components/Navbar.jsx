@@ -74,7 +74,7 @@ const Navbar = () => {
       <p className="text-lg font-play text-white font-semibold">Muna-Snack</p>
       <div className="relative inline-block text-left">
         <button
-          className="inline-flex justify-center items-center rounded-full w-8 h-8 focus:outline-none"
+          className="inline-flex justify-center items-center rounded-full w-8 h-8 mt-2 focus:outline-none"
           aria-label="User menu"
           aria-haspopup="true"
           onClick={() => setShowUserMenu(!showUserMenu)}
@@ -83,7 +83,7 @@ const Navbar = () => {
         </button>
         {showUserMenu && (
           <div
-            className="absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg py-1"
+            className="absolute right-0  w-48 bg-white rounded-md shadow-lg py-1"
             ref={userMenuRef}
           >
             {isNameSaved ? (
