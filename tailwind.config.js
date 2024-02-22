@@ -19,7 +19,7 @@ module.exports = {
         dimWhite: "rgba(255, 255, 255, 0.7)",
         dimBlue: "rgba(9, 151, 124, 0.1)",
         navbar: "#4D4D4D",
-        darkBrown: "#5E3C24",
+        darkBrown: "#342114",
         brown: "#5E3C24",
         background1: "#F8F7F2",
         text: "#5D5D5D",
